@@ -1,5 +1,10 @@
 alert("welcome to my page");
 
+var userAge=prompt('input your age?')
+while (userAge<27){
+userAge=prompt('please input your age again ?')
+}
+
 var color=prompt('enter cat color (black)or(white)');
 while(color!=='black'&& color!=='white'){
 
